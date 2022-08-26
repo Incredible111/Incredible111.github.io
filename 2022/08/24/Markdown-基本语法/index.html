@@ -9,7 +9,7 @@
     
     <title>
         
-            My New Post |
+            Markdown 基本语法 |
         
         Incredible
     </title>
@@ -86,7 +86,7 @@
                     
                         <li class="menu-item">
                             <a class=""
-                               href="/Tags"
+                               href="/tags"
                             >
                                 标签
                             </a>
@@ -138,7 +138,7 @@
             
                 <li class="drawer-menu-item flex-center">
                     <a class=""
-                       href="/Tags">标签</a>
+                       href="/tags">标签</a>
                 </li>
             
                 <li class="drawer-menu-item flex-center">
@@ -165,7 +165,7 @@
     <div class="article-content-container">
 
         <div class="article-title">
-            <span class="title-hover-animation">My New Post</span>
+            <span class="title-hover-animation">Markdown 基本语法</span>
         </div>
 
         
@@ -184,13 +184,28 @@
                         <div class="article-meta-info">
     <span class="article-date article-meta-item">
         <i class="fas fa-edit"></i>&nbsp;
-        <span class="pc">2022-04-24 21:01:55</span>
-        <span class="mobile">2022-04-24 21:01</span>
+        <span class="pc">2022-08-24 10:17:36</span>
+        <span class="mobile">2022-08-24 10:17</span>
     </span>
     
     
+        <span class="article-tags article-meta-item">
+            <i class="fas fa-tags"></i>&nbsp;
+            <ul>
+                
+                    <li>
+                        <a href="/tags/1/">1</a>&nbsp;
+                    </li>
+                
+            </ul>
+        </span>
+    
 
     
+    
+        <span class="article-wordcount article-meta-item">
+            <i class="fas fa-file-word"></i>&nbsp;<span>248 字</span>
+        </span>
     
     
     
@@ -202,11 +217,84 @@
         
 
         <div class="article-content markdown-body">
-            
+            <h2 id="Markdown-基本语法初识"><a href="#Markdown-基本语法初识" class="headerlink" title="Markdown 基本语法初识"></a>Markdown 基本语法初识</h2><h2 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h2><h4 id="Markdown-标题分为六级"><a href="#Markdown-标题分为六级" class="headerlink" title="Markdown 标题分为六级"></a>Markdown 标题分为六级</h4><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="section"># 一级</span></span><br><span class="line"><span class="section">## 二级</span></span><br><span class="line"><span class="section">### 三级</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<h5 id="越多字越小"><a href="#越多字越小" class="headerlink" title="# 越多字越小"></a># 越多字越小</h5></blockquote>
+<h2 id="二、引用"><a href="#二、引用" class="headerlink" title="二、引用"></a>二、引用</h2><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="quote">&gt; 这是一段引用</span></span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>这是引用效果</p>
+</blockquote>
+<h2 id="三、列表"><a href="#三、列表" class="headerlink" title="三、列表"></a>三、列表</h2><h3 id="1-有序列表"><a href="#1-有序列表" class="headerlink" title="1. 有序列表"></a>1. 有序列表</h3><p>番茄炒蛋的步骤：</p>
+<ol>
+<li><p>炒番茄</p>
+</li>
+<li><p>炒鸡蛋</p>
+</li>
+<li><p>混合番茄炒蛋</p>
+</li>
+</ol>
+<h3 id="2-无序列表"><a href="#2-无序列表" class="headerlink" title="2.无序列表"></a>2.无序列表</h3><ul>
+<li><p>这是无序列表</p>
+</li>
+<li><p>无序列表就是没有数字啦</p>
+</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> 无序列表</span><br><span class="line"><span class="bullet">*</span> 也可以使用星号</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-任务列表"><a href="#3-任务列表" class="headerlink" title="3.任务列表"></a>3.任务列表</h3><p>明天要做的事：</p>
+<ul>
+<li><p><input disabled="" type="checkbox"> 
+吃饭</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+睡觉</p>
+</li>
+<li><p><input disabled="" type="checkbox"> 
+看电影</p>
+</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> [ ] 这是任务列表，可勾选完成。在中括号里输入字母x表示勾选</span><br></pre></td></tr></table></figure>
+
+<h2 id="四、代码块"><a href="#四、代码块" class="headerlink" title="四、代码块"></a>四、代码块</h2><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="built_in">system</span>(<span class="string">&quot;pause&quot;</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">``` 代码语言 </span></span><br></pre></td></tr></table></figure>
+
+<h2 id="五、数学公式"><a href="#五、数学公式" class="headerlink" title="五、数学公式"></a>五、数学公式</h2><p>$$<br>\frac{\partial f}{\partial x} &#x3D; 2\sqrt{a}x<br>$$</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$$</span><br><span class="line">数学公式</span><br><span class="line">$$</span><br></pre></td></tr></table></figure>
+
+<h2 id="六、表格"><a href="#六、表格" class="headerlink" title="六、表格"></a>六、表格</h2><table>
+<thead>
+<tr>
+<th align="center">姓名</th>
+<th align="center">年龄</th>
+<th align="center">学校</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">余恃新</td>
+<td align="center">19</td>
+<td align="center">东北大学</td>
+</tr>
+</tbody></table>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">|姓名|年龄|学校|</span><br><span class="line">|:---|---:|:---:|</span><br><span class="line">|左对齐|右对齐|居中对齐|</span><br></pre></td></tr></table></figure>
+
+<h2 id="七、横线"><a href="#七、横线" class="headerlink" title="七、横线"></a>七、横线</h2><hr>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">--- 三个横线自动生成</span><br><span class="line"><span class="strong">**<span class="emphasis">*</span></span></span><br><span class="line"><span class="emphasis"><span class="strong">*</span> <span class="emphasis">* *</span> 这些均可</span></span><br></pre></td></tr></table></figure>
+
         </div>
 
         
 
+        
+            <ul class="post-tags-box">
+                
+                    <li class="tag-item">
+                        <a href="/tags/1/">#1</a>&nbsp;
+                    </li>
+                
+            </ul>
         
 
         
@@ -216,10 +304,10 @@
                     <div class="article-next">
                         <a class="next"
                            rel="next"
-                           href="/2022/04/24/hello-world/"
+                           href="/2022/05/06/MyfirstBlog/"
                         >
                             <span class="title flex-center">
-                                <span class="post-nav-title-item">Hello World</span>
+                                <span class="post-nav-title-item">MyfirstBlog</span>
                                 <span class="post-nav-item">下一篇</span>
                             </span>
                             <span class="right arrow-icon flex-center">
