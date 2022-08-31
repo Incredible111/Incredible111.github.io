@@ -292,7 +292,7 @@ mjx-container[display="true"] + br {
     
     
         <span class="article-wordcount article-meta-item">
-            <i class="fas fa-file-word"></i>&nbsp;<span>285 字</span>
+            <i class="fas fa-file-word"></i>&nbsp;<span>627 字</span>
         </span>
     
     
@@ -371,7 +371,59 @@ mjx-container[display="true"] + br {
 <blockquote>
 <p>R为weight（基数）</p>
 </blockquote>
-<h4 id="Decimal-to-R"><a href="#Decimal-to-R" class="headerlink" title="Decimal to R"></a>Decimal to R</h4>
+<h4 id="Decimal-to-R"><a href="#Decimal-to-R" class="headerlink" title="Decimal to R"></a>Decimal to R</h4><p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-19-43-18-9bd1393766d1fcf0b3e35ace1a58463.jpg"></p>
+<blockquote>
+<p>注意书写顺序，整数部分先得到的数写在后面</p>
+</blockquote>
+<p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-19-43-40-bff0d3ed78f70fce4ce70a62300e05d.jpg"></p>
+<blockquote>
+<p>注意顺序，小数部分先得到的写在前面</p>
+</blockquote>
+<h5 id="decimal-to-binary"><a href="#decimal-to-binary" class="headerlink" title="decimal to binary"></a>decimal to binary</h5><ul>
+<li><p>两步</p>
+<ul>
+<li><p>Integer part (整数除2取余法)</p>
+<p>基于重复的十进制除以2</p>
+</li>
+<li><p>Fractional part (小数乘2取整法)</p>
+<p>基于重复的十进制乘以2</p>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>整数示例</p>
+</blockquote>
+<p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-19-50-07-image.png"></p>
+<blockquote>
+<p>小数示例</p>
+</blockquote>
+<p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-19-50-56-image.png"></p>
+<blockquote>
+<p>十进制小数得到无限循环小数的示例</p>
+</blockquote>
+<p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-19-49-30-image.png"></p>
+<blockquote>
+<p>十进制小数转换为八进制和十六进制的示例</p>
+</blockquote>
+<p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-19-54-40-image.png"></p>
+<h5 id="binary-lt-——-gt-octal-amp-amp-binary-lt-——-gt-hexadicimal"><a href="#binary-lt-——-gt-octal-amp-amp-binary-lt-——-gt-hexadicimal" class="headerlink" title="binary <——> octal  &&  binary <——> hexadicimal"></a>binary &lt;——&gt; octal  &amp;&amp;  binary &lt;——&gt; hexadicimal</h5><ul>
+<li>以十进制为桥梁，都转化为十进制之后再相互转换</li>
+</ul>
+<h5 id="others"><a href="#others" class="headerlink" title="others"></a>others</h5><p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-20-02-36-image.png"></p>
+<blockquote>
+<p>三个二进制表示一个八进制    四个二进制表示一个十六进制</p>
+<p>可能不太好理解，换言之就是当二进制111再加一时要向前进一位，此时二进制111代表八进制的7，八进制的7再加一也需要向前进一位，达到了同步</p>
+</blockquote>
+<p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-20-06-01-image.png"></p>
+<blockquote>
+<p>e.g. 2.2 将二进制转换为八进制，以小数点为分界，三个三个成一组，不够的添上0（如 10 变成 010），之后将每组的二进制转化为十进制的数字，直接书写即可</p>
+</blockquote>
+<p><img src="C:\Users\Oliver\AppData\Roaming\marktext\images\2022-08-31-20-06-16-image.png"></p>
+<blockquote>
+<p>e.g. 2.5 将十六进制转换为二进制，将每个数字代表的四位二进制从左往右按顺序书写即可</p>
+</blockquote>
+
         </div>
 
         
@@ -522,7 +574,7 @@ mjx-container[display="true"] + br {
         <aside class="page-aside">
             <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2"><span class="nav-text">进制转换</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Chapter-1-From-Zero-to-One"><span class="nav-text">Chapter 1 From Zero to One</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Positional-number-system-%E6%8C%89%E4%BD%8D%E8%AE%A1%E6%95%B0%E7%B3%BB%E7%BB%9F"><span class="nav-text">1. Positional number system (按位计数系统)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%EF%BC%89-Decimal"><span class="nav-text">1） Decimal</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%EF%BC%89Binary"><span class="nav-text">2）Binary</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3%EF%BC%89Octal-System"><span class="nav-text">3）Octal System</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4%EF%BC%89Hexadecimal"><span class="nav-text">4）Hexadecimal</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#R-to-Decimal"><span class="nav-text">R to Decimal</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Decimal-to-R"><span class="nav-text">Decimal to R</span></a></li></ol></li></ol></li></ol></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%BF%9B%E5%88%B6%E8%BD%AC%E6%8D%A2"><span class="nav-text">进制转换</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Chapter-1-From-Zero-to-One"><span class="nav-text">Chapter 1 From Zero to One</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-Positional-number-system-%E6%8C%89%E4%BD%8D%E8%AE%A1%E6%95%B0%E7%B3%BB%E7%BB%9F"><span class="nav-text">1. Positional number system (按位计数系统)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1%EF%BC%89-Decimal"><span class="nav-text">1） Decimal</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2%EF%BC%89Binary"><span class="nav-text">2）Binary</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3%EF%BC%89Octal-System"><span class="nav-text">3）Octal System</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4%EF%BC%89Hexadecimal"><span class="nav-text">4）Hexadecimal</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#R-to-Decimal"><span class="nav-text">R to Decimal</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Decimal-to-R"><span class="nav-text">Decimal to R</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#decimal-to-binary"><span class="nav-text">decimal to binary</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#binary-lt-%E2%80%94%E2%80%94-gt-octal-amp-amp-binary-lt-%E2%80%94%E2%80%94-gt-hexadicimal"><span class="nav-text">binary &lt;——&gt; octal  &amp;&amp;  binary &lt;——&gt; hexadicimal</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#others"><span class="nav-text">others</span></a></li></ol></li></ol></li></ol></li></ol></li></ol>
     </div>
 </div>
         </aside>
